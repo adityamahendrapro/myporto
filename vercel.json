@@ -2,15 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "src/index.html",
+      "src": "/index.html",
       "use": "@vercel/static"
     },
     {
-      "src": "src/assets/style.css",
+      "src": "/assets/style.css",
       "use": "@vercel/static"
     },
     {
-      "src": "src/CV_Aditya Mahendra.pdf",
+      "src": "/CV_Aditya Mahendra.pdf",
       "use": "@vercel/static"
     },
     {
@@ -21,7 +21,7 @@
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/src/index.html"
+      "dest": "/index.html"
     }
   ]
 }
